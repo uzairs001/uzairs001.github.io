@@ -1,0 +1,172 @@
+.slicknav_menu{
+    display:none;
+}
+@media screen and (max-width:992px){
+    .slider{
+        margin-top:112px;
+    }
+    header{
+    margin-top:-112px;
+    background-color:#34495e;
+    height:112px;
+    line-height: 112px;
+    }
+    .slicknav_menu{
+        display:inline-block;
+        position:fixed;
+        z-index:1000;
+        right:0;
+        background: rgba(0,0,0,0);
+        margin-top:-112px;
+    }
+    .slicknav_btn {
+        margin:35px 30px 0 0;
+        background-color: #e74c3c;
+    }
+    #menu {
+        display:none;  
+    }
+    .slicknav_nav{
+        background-color: #34495e;
+        width:150px;
+    }
+    .slicknav_nav li {
+        border-top:1px solid #3d5267;
+        border-bottom:1px solid #2e4155;
+        text-align:center;
+    }
+    .slicknav_nav li a:hover{
+        background-color: rgba(0,0,0,0);
+        color:#e74c3c;
+    }
+    .slider ,.slider ul.slider-carousel,.slider ul.slider-carousel li{
+        height:450px;
+        width:100%;
+    }
+    .slider ul.slider-carousel li h1 {
+        margin-top: 100px;
+    }
+    /****** caroufredsel *****/
+    .portfolio-carousel .overlay-content h3{
+        font-size:18px;
+    }
+    .portfolio .inner-content {
+        
+        width:200px;
+        height:200px;
+    }
+    .team-carousel .overlay-content p.description{
+        display:none;
+    }
+    .blog img{
+       margin: 0 auto;
+    }
+    .portfolio {
+    
+        background-image: none;
+        background-color: #eda536;
+       
+    }
+    .testimonials {
+    
+        background-image: none;
+        background-color: #0b1522;
+       
+    }
+    .contact {
+    
+        background-image: none;
+        background-color: #327478;
+    }
+    footer{
+        text-align:center;
+    }
+    footer .col-md-4{
+        margin-bottom: 60px;
+    }
+    .dropdown-content{
+        /* visibility: hidden; */
+        display:none;
+        position:absolute;
+        width:120px;
+        top:140px;
+        line-height: 30px;
+        background-color: #34495e;
+        transition:all 0.3s ease-in;
+        -webkit-transition : all 0.3s ease-in;
+        -moz-transition : all 0.3s ease-in;
+        -o-transition : all 0.3s ease-in;
+        -ms-transition : all 0.3s ease-in; 
+        transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+        -o-transform:scale(1,1);  
+    }
+    /* .dropdown-content li{
+        display:block;
+    } */
+    
+    
+    header nav  ul li:hover .dropdown-content  {
+        /* visibility: visible; */
+       
+    }
+    /* header nav  ul li:hover .dropdown-content {
+        display: block;
+       top:60px;
+       transform:scale(1,1);
+        -webkit-transform:scale(1,1);
+        -moz-transform:scale(1,1);
+        -ms-transform:scale(1,1);
+        -o-transform:scale(1,1);
+    } */
+    .slicknav_nav .slicknav_row:hover{
+        border-radius:0;
+        background:rgba(0,0,0,0);
+    }
+    
+}
+@media screen and (max-width:381px){
+    .slider ul li a {
+        display:block;
+    }
+    .slider ul.slider-carousel li a{
+        margin:0;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) { 
+    .portfolio-carousel .overlay-content h3,.portfolio-carousel .overlay-content p{
+        font-size:12px;
+    }
+    .team-carousel .inner-content .overlay-content p{
+        font-size:12px;
+    }
+    .team-carousel .inner-content .overlay-content p.description{
+        font-size:12px;
+        padding-right:30px;
+    }
+   
+}
+@media screen and (min-width: 320px) and (max-width: 767px) { 
+    .portfolio-carousel .overlay-content h3,.portfolio-carousel .overlay-content p{
+        font-size:12px;
+       
+        padding-right:20%;
+    }
+    .portfolio .inner-content {
+        position:relative;
+        width:200px;
+        height:170px;
+    }
+    .team-carousel .overlay-content p{
+        font-size:12px;
+        padding-right:20%;
+    }
+    .team .inner-content {
+        position:relative;
+        width:200px;
+        height:170px;
+    }
+   
+}
